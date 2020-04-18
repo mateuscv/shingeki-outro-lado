@@ -136,6 +136,12 @@ h2{
     padding: 4px;
 }
 
+.date{
+    font-weight: normal;
+    font-size: small;
+    color: rgb(130, 130, 130);
+}
+
 .newsbody{
     text-align: justify;
     padding: 8px;
