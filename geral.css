@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(73, 25, 22)
+}
+
+.main_frame {
+    margin: auto;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, .5);
+    height: 950px;
+    width: 1300px;
+    background-color: rgb(32, 32, 32);
+}
+
+a{
+    text-decoration: none;
+}
+
+#banner{
+    color: rgb(200,200,200);
+    background-image: url(https://images3.alphacoders.com/930/930377.jpg);
+    background-size: 1300px 500px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow:
+      0 0 15px rgba(17, 16, 16, 0.924), /* bloom */
+      0 2px 4px hsla(0, 0%, 0%, 0.7); /* drop shadow */;
+}
+
+.ul-navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.li-navbar{
+    float: left;
+}
+
+li a{
+    display: block;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    color:rgb(150,150,150);
+}
+
+hr{
+    border-color:rgba(150,150,150,.5);
+}
