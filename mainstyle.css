@@ -87,6 +87,14 @@ table, th, td {
     width: 260px;
 }
 
+.block:hover{
+    box-shadow:
+    inset 0 5px 20px hsla(0, 0%, 0%, 0.4), /* top light */
+      inset 0 -5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */
+      -8px 8px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */
+        5px 18px 10px hsla(0, 0%, 0%, 0.2); /* drop shadow 2 */
+}
+
 #prefacio{
     background-image: url(https://cdn.discordapp.com/attachments/590644863033278630/696426452924760154/maxresdefault.jpg);
     background-size: 260px 150px;
