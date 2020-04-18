@@ -43,6 +43,7 @@ li a{
     font-family: sans-serif;
     color: white;
     text-align: center;
+    font-size: 14pt;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -112,6 +113,35 @@ table, th, td {
     background-size: 260px 150px;
 }
 
+#news{
+    color:white;
+    text-align: left;
+    font-family: sans-serif;
+    border: 1px solid rgba(150, 150, 150,.5);
+    border-collapse: collapse;
+}
+
+h2{
+    font-size: 14pt;
+    color: white;
+}
+
+#iconstar{
+    height: 20px;
+    width: 20px;
+}
+
+.newstitle{
+    font-weight: bold;
+    padding: 4px;
+}
+
+.newsbody{
+    text-align: justify;
+    padding: 8px;
+    color: rgb(200, 200, 200);
+}
+
 footer{
     margin: auto;
     text-align: center;
@@ -121,4 +151,13 @@ footer{
 
 hr{
     border-color:rgba(150,150,150,.5);
+}
+
+.vl {
+  border-left: 1px rgba(150,150,150,.5);
+  height: 950px;
+}
+
+.bolderhr{
+    border-color:rgba(150,150,150,1);
 }
