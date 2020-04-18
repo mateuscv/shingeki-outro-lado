@@ -32,6 +32,14 @@ table, th, td {
     width: 260px;
 }
 
+.block:hover{
+    box-shadow:
+    inset 0 5px 20px hsla(0, 0%, 0%, 0.4), /* top light */
+      inset 0 -5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */
+      -8px 8px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */
+        5px 18px 10px hsla(0, 0%, 0%, 0.2); /* drop shadow 2 */
+}
+
 #prefacio{
     background-image: url(https://cdn.discordapp.com/attachments/590644863033278630/696426452924760154/maxresdefault.jpg);
     background-size: 260px 150px;
@@ -56,4 +64,59 @@ table, th, td {
 #autor{
     background-image: url(https://ichef.bbci.co.uk/news/ws/660/amz/worldservice/live/assets/images/2015/10/20/151020090409_hajime_isayama_640x360_bbc_nocredit.jpg);
     background-size: 260px 150px;
+}
+
+#news{
+    color:white;
+    text-align: left;
+    font-family: sans-serif;
+    border: 1px solid rgba(150, 150, 150,.5);
+    border-collapse: collapse;
+}
+
+h2{
+    font-size: 14pt;
+    color: white;
+}
+
+#iconstar{
+    height: 20px;
+    width: 20px;
+}
+
+.newstitle{
+    font-weight: bold;
+    padding: 4px;
+}
+
+.newsdate{
+    font-weight: normal;
+    font-size: small;
+    color: rgb(130, 130, 130);
+}
+
+.newsbody{
+    text-align: justify;
+    padding: 8px;
+    color: rgb(200, 200, 200);
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    color:rgb(150,150,150);
+}
+
+hr{
+    border-color:rgba(150,150,150,.5);
+}
+
+.vl {
+  border-left: 1px rgba(150,150,150,.5);
+  height: 950px;
+}
+
+.bolderhr{
+    border-color:rgba(150,150,150,1);
 }
