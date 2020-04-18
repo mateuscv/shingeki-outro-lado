@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(73, 25, 22)
+}
+
+.main_frame {
+    margin: auto;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, .5);
+    height: 950px;
+    width: 1500px;
+    background-color: rgb(32, 32, 32);
+}
+
+#banner{
+    color: rgb(150,150,150);
+    text-align: center;
+}
