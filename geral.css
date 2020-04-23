@@ -10,6 +10,7 @@ p, h1, h2, h3 {
 
 audio{
     padding-left: 20px;
+    outline: none;
 }
 
 .main_frame {
