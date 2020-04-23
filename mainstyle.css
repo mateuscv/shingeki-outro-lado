@@ -101,13 +101,6 @@ h2{
     color: rgb(200, 200, 200);
 }
 
-footer{
-    margin: auto;
-    text-align: center;
-    font-family: sans-serif;
-    color:rgb(150,150,150);
-}
-
 hr{
     border-color:rgba(150,150,150,.5);
 }

@@ -2,12 +2,23 @@ body{
     background-color: rgb(73, 25, 22)
 }
 
+p, h1, h2, h3 {
+    font-family: sans-serif;
+    color: white;
+    padding-left: 20px;
+}
+
+audio{
+    padding-left: 20px;
+}
+
 .main_frame {
     margin: auto;
     box-shadow: 3px 2px 4px rgba(0, 0, 0, .5);
     height: 950px;
     width: 1300px;
     background-color: rgb(32, 32, 32);
+    position: relative;
 }
 
 a{
@@ -56,6 +67,9 @@ footer{
     text-align: center;
     font-family: sans-serif;
     color:rgb(150,150,150);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 hr{
