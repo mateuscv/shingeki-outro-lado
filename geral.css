@@ -2,6 +2,16 @@ body{
     background-color: rgb(73, 25, 22)
 }
 
+p, h1, h2, h3 {
+    font-family: sans-serif;
+    color: white;
+    padding-left: 20px;
+}
+
+audio{
+    padding-left: 20px;
+}
+
 .main_frame {
     margin: auto;
     box-shadow: 3px 2px 4px rgba(0, 0, 0, .5);
