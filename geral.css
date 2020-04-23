@@ -76,3 +76,10 @@ footer{
 hr{
     border-color:rgba(150,150,150,.5);
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
