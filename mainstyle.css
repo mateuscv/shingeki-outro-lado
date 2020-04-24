@@ -101,6 +101,10 @@ h2{
     color: rgb(200, 200, 200);
 }
 
+#welcome{
+    font-size: 25px;
+}
+
 hr{
     border-color:rgba(150,150,150,.5);
 }
