@@ -1,0 +1,17 @@
+form{
+    padding-left: 20px;
+}
+
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+#nome, #email{
+    width: 15%;
+}
+
+textarea{
+    resize: none;
+}
