@@ -1,0 +1,12 @@
+#photo{
+    width: 400px;
+    height: 320px;
+    background-image: url(https://cdn.discordapp.com/attachments/590644863033278630/706131530157916180/Capturar.PNG);
+    border: 2px;
+    border-style: outset;
+}
+
+td{
+    padding-right: 30px;
+    text-align: justify;
+}
