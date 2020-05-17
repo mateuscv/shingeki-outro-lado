@@ -1,0 +1,21 @@
+.main_frame{
+    text-align: center;
+    height: 875px;
+}
+
+#sitetitle{
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+}
+
+.slideimagens{
+    width: 275px;
+    height: 425px;
+}
+
+.contents{
+    display: inline-block;
+}
