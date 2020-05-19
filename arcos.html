@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shingeki no Kyojin — O Outro Lado da Muralha</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="geral.css">
+    <link rel="stylesheet" type="text/css" href="autor.css">
+    <link rel="stylesheet" type="text/css" href="arcos.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main_frame">
+        <a href='index.html'>
+            <div id="banner">
+                <br>
+                <br>
+                <h1 id='sitetitle'>Shingeki no Kyojin — O Outro Lado da Muralha</h1>
+                <br>
+                <br>
+            </div>
+        </a> 
+
+        <ul class="ul-navbar">
+            <li class="li-navbar"><a href="prefacio.html"> Prefácio </a></li>
+            <li class="li-navbar"><a href="news.html"> Notícias </a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Guias
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="personagens.html">Personagens</a>
+                <a href="arcos.html">Arcos</a>
+                </div>
+            </div>
+            <li class="li-navbar"><a href="filosofias.html"> Filosofias </a></li>
+            <li class="li-navbar"><a href="multimidia.html"> Multimídia </a></li>
+            <li class="li-navbar"><a href="manga.html"> Mangá </a></li>
+            <li class="li-navbar"><a href="autor.html"> Autor </a></li>
+            <li class="li-navbar"><a href="contato.html"> Contato </a></li>
+        </ul>
+
+        <h1 style="color: white"> Arcos </h1>
+
+        <table class="contents">
+            <tr>
+            <td>
+                <button id='trocar' onclick="plusDivs(-1)">⮜</button>
+            </td>
+            <td>
+                <div class="slide">
+                    <table style="width:100%">
+                        <tr>
+                        <td><img class='slideimagens' src='Red_rose.jpg'></td>
+                        <td><h2>Flor1</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></td>
+                    </table>
+                </div>
+                <div class="slide">
+                    <table style="width:100%">
+                        <tr>
+                        <td><img class='slideimagens' src='Camellia_japonica_01.jpg'></td>
+                        <td><h2>Flor2</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></td>
+                    </table>
+                </div>
+            </td>
+            <td>
+                <button id='trocar' onclick="plusDivs(+1)">⮞</button>
+            </td>
+                <script src="personagens.js"></script>
+        </table>
+
+        <footer>
+            <hr>
+            <p>Desenvolvido por Mateus Vieira e Mateus Prado. <br> Sistemas para Internet II</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
