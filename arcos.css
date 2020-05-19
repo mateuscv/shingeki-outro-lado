@@ -12,21 +12,13 @@ h1{
 }
 
 .slideimagens{
-    width: 295px;
-    height: 450px;
+    width: 275px;
+    height: 425px;
 }
 
 td{
     max-width: 900px;
     text-overflow: ellipsis;
-}
-
-#eren{
-    width: 250px;
-}
-
-#hange{
-    width: 245px;
 }
 
 #trocar{
