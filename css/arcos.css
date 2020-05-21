@@ -11,14 +11,60 @@ h1{
     text-align: left;
 }
 
-.slideimagens{
-    width: 275px;
-    height: 425px;
+.slide{
+    box-shadow:
+    inset 0 -5px 20px hsla(0, 0%, 0%, 0.4),
+    inset 0 5px 20px hsla(0, 0%, 100%, 0.4),
+    -8px 8px 5px hsla(0, 0%, 0%, 0.15),
+    5px 18px 10px hsla(0, 0%, 0%, 0.2);
+    width: 600px;
+    height: 300px;
+    text-align: justify;
+    text-shadow:
+    2px 1px 2px rgba(0, 0, 0, 1),
+    0 2px 4px hsla(0, 0%, 0%, 1);
 }
 
-td{
-    max-width: 900px;
-    text-overflow: ellipsis;
+#arc1{
+    background-image: url('/img/arc1.png');
+}
+
+#arc2{
+    background-image: url('/img/arc2.jpg');
+}
+
+#arc3{
+    background-image: url('/img/arc3.jpg');
+}
+
+#arc4{
+    background-image: url('/img/arc4.png');
+}
+
+#arc5{
+    background-image: url('/img/arc5.png');
+}
+
+#arc6{
+    background-image: url('/img/arc6.png');
+}
+
+#arc7{
+    background-image: url('/img/arc7.png');
+}
+
+#arc8{
+    background-image: url('/img/arc8.png');
+}
+
+.slidetext{
+    color: white;
+    max-width: 94%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h2{
+    text-align: center;
 }
 
 #trocar{
