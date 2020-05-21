@@ -29,7 +29,8 @@ a{
 #banner{
     color: rgb(200,200,200);
     background-image: url(https://images3.alphacoders.com/930/930377.jpg);
-    background-size: 1300px 500px;
+    background-size: 1300px 480px;
+    height: 165px;
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
