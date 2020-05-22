@@ -13,7 +13,9 @@ p{
     padding-right: 20px;
     
 }
-
+h1,h2,h3{
+    text-align: left;
+}
 .contents{
     display: inline-block;
     max-width: 1250px;
