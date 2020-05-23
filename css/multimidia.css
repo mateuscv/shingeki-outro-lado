@@ -1,10 +1,14 @@
 .main_frame {
     margin: auto;
     box-shadow: 3px 2px 4px rgba(0, 0, 0, .5);
-    height: 7390px;
+    height: 700px;
     width: 1300px;
     background-color: rgb(32, 32, 32);
     position: relative;
+}
+
+#mf_multi{
+    height: 700px;
 }
 
 iframe{
@@ -13,4 +17,22 @@ iframe{
     margin-right: auto;
     width: 900px;
     height: 600px;
+}
+
+select{
+    margin-left: 20px;
+    width: 200px;
+    height: 25px;
+}
+
+#primeira{
+    display: none;
+}
+
+#segunda{
+    display: none;
+}
+
+#terceira{
+    display: none;
 }
